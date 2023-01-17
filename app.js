@@ -14,6 +14,7 @@ async function rainbow() {
     await delayedColorChange('green', 1000); 
     await delayedColorChange('blue', 1000); 
     await delayedColorChange('violet', 1000); 
+    rainbow(); 
 }
 
 rainbow(); 
