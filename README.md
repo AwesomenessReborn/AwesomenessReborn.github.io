@@ -1,4 +1,4 @@
 # AwesomenessReborn.github.io
 personal site
 
-* go to my site now: https://AwesomenessReborn.github.io
+* go to my site now: https://awesomenessReborn.github.io
