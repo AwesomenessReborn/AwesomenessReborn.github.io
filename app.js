@@ -3,17 +3,17 @@ const delayedColorChange = (color) => {
         setTimeout(() => {
             document.body.style.backgroundColor = color; 
             resolve(); 
-        }, 1000)
+        }, 2000)
     })
 }
 
 async function rainbow() {
-    await delayedColorChange('red', 1000); 
-    await delayedColorChange('orange', 1000); 
-    await delayedColorChange('yellow', 1000); 
-    await delayedColorChange('green', 1000); 
-    await delayedColorChange('blue', 1000); 
-    await delayedColorChange('violet', 1000); 
+    await delayedColorChange('rgb(36, 0, 0)', 1000); 
+    await delayedColorChange('rgb(31, 20, 0)', 1000); 
+    await delayedColorChange('rgb(35, 35, 0)', 1000); 
+    await delayedColorChange('rgb(0, 35, 0)', 1000); 
+    await delayedColorChange('rgb(0, 0, 26)', 1000); 
+    await delayedColorChange('rgb(31, 0, 31)', 1000); 
     rainbow(); 
 }
 
