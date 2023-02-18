@@ -32,6 +32,10 @@ body {
 
 }
 
+#main-card::before {
+    content: "";
+}
+
 #socials-and-icons > a > svg {
     width: 2em;
     height: 2em;
@@ -41,6 +45,8 @@ body {
     filter: drop-shadow(0 0 0.25em rgb(255, 191, 0));
 
 }
+
+
 
 h1 {
     font-size: 2.5rem;
