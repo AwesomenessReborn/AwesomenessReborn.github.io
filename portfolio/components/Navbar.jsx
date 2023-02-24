@@ -17,27 +17,27 @@ const Navbar = () => {
         <div>
           <ul className="hidden md:flex">
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
+              <li className="ml-10 text-sm uppercase btn">Home</li>
             </Link>
 
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">About</li>
+              <li className="ml-10 text-sm uppercase btn">About</li>
             </Link>
 
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">
+              <li className="ml-10 text-sm uppercase btn">
                 Skills and Education
               </li>
             </Link>
 
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">
+              <li className="ml-10 text-sm uppercase btn">
                 Projects
               </li>
             </Link>
 
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">
+              <li className="ml-10 text-sm uppercase btn">
                 Contact
               </li>
             </Link>
@@ -60,7 +60,7 @@ const Navbar = () => {
                 height={35}
               ></Image>
 
-              <div>
+              <div className="btn p-5 rounded-full">
                 <AiOutlineClose />
               </div>
             </div>
