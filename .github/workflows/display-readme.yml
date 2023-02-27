@@ -1,0 +1,17 @@
+name: Display Portfolio README
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  display-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Display Portfolio README
+        run: |
+          echo "<details><summary>Click to expand Portfolio README</summary>"
+          cat portfolio/README.md
+          echo "</details>"
