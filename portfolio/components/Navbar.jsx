@@ -128,8 +128,6 @@ const Navbar = () => {
 								<div className="btn rounded-full p-3 cursor-pointer hover:scale-105 ease-in duration-200" onClick={copyToClipboard("Hareee234#1574")}>
 									<FaDiscord />
 								</div>
-
-
 							</div>
 						</div>
 					</div>
