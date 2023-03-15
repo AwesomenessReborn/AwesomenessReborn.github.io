@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 @layer base {
+	html {
+		-webkit-text-size-adjust: 100%;
+		text-size-adjust: 100%; 
+	}
+
 	body {
 		@apply bg-[#FEFAE0] text-[#0d1b2a] tracking-wide;
 	}

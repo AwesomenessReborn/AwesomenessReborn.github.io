@@ -12,16 +12,6 @@ const Navbar = () => {
 		setNav(!nav); 
 	}
 
-
-	const copyToClipboard = (text) =>  {
-		var input = document.createElement('textarea');
-		input.value = text;
-		document.body.appendChild(input);
-		input.select();
-		document.execCommand('copy');
-		document.body.removeChild(input);
-	  }
-
 	return (
 		<div className="fixed w-full h-20 z-[100]">
 			<div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
@@ -104,7 +94,7 @@ const Navbar = () => {
 								<p className="uppercase tracking-widest">
 									Let&apos;s chat
 								</p>
-							<div className="flex item-center justify-between my-4 w-[37%] sm:w[52%]">
+							<div className="flex item-center justify-between my-4 w-[60%] sm:w[82%]">
 
 								<div className="btn rounded-full p-3 cursor-pointer hover:scale-105 ease-in duration-200">
 									<Link href="https://www.linkedin.com/in/hareee234/">
@@ -125,7 +115,7 @@ const Navbar = () => {
 								</div>
 
 								{/* TODO make button clickme function work, currently not working */}
-								<div className="btn rounded-full p-3 cursor-pointer hover:scale-105 ease-in duration-200" onClick={copyToClipboard("Hareee234#1574")}>
+								<div className="btn rounded-full p-3 cursor-pointer hover:scale-105 ease-in duration-200">
 									<FaDiscord />
 								</div>
 							</div>
